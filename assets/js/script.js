@@ -1,4 +1,4 @@
-var videos = [ "METALKINGDOM.mp4", "BABYMETAL–DivineAttack.mp4", "BABYMETAL-Monochrome.mp4"];
+var videos = [ "./assets/videos/METALKINGDOM.mp4", "./assets/videos/BABYMETAL–DivineAttack.mp4", "./assets/videos/BABYMETAL-Monochrome.mp4"];
 
 var currentIndex = 0;
 var currentVideo = document.querySelector("#current-video");

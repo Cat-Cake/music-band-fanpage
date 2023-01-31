@@ -19,6 +19,10 @@
     box-sizing: border-box;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 body {
     margin: 0 5rem;
 }
@@ -38,7 +42,6 @@ body {
   top: 10%;
   position: sticky !important;
   height: fit-content !important;
-  flex-wrap: wrap;
 }
 
 .descri-container {
@@ -48,4 +51,29 @@ body {
 
 .biography {
   width: 60%;
+}
+
+.social {
+  width: 5%;
+}
+
+#cr-cnt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 744px)
+{
+
+    .pres {
+      flex-wrap: wrap;
+    }
+
+    .left-side-card {
+      position: inherit !important;
+      justify-content: center;
+      width: 100% !important;
+    }
+
 }
