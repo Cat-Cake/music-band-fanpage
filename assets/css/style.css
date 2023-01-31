@@ -91,4 +91,12 @@ body {
       width: 100% !important;
     }
 
+    .social-container {
+      width: 100%;
+    }
+
+    #biography, #discography {
+      margin: 0 !important;
+    }
+
 }
