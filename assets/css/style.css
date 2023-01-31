@@ -1,7 +1,4 @@
-/* #carousel-container {
-    display: flex;
-    justify-content: center;
-  }
+/*
   
   video {
     width: 500px;
@@ -25,6 +22,13 @@ a {
 
 body {
     margin: 0 5rem;
+}
+
+#carousel-container {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card-body {
@@ -54,11 +58,22 @@ body {
 }
 
 .social {
-  width: 5%;
+  width: 40%;
 }
 
-#cr-cnt {
+/* #cr-cnt {
   width: 100%;
+  display: flex;
+  justify-content: center;
+} */
+
+.prev-next-button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-container {
+  width: 50%;
   display: flex;
   justify-content: center;
 }
